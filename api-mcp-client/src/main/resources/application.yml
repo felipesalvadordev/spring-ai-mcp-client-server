@@ -1,0 +1,13 @@
+spring:
+  ai:
+    mcp:
+      client:
+        sse:
+          connections:
+            person-mcp-server:
+              url: http://localhost:8060
+            account-mcp-server:
+              url: http://localhost:8040
+
+    openai:
+      api-key: ${OPENAI_API_KEY}

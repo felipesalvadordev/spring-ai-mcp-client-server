@@ -1,0 +1,26 @@
+ [
+    {
+      "id": 1,
+      "date": "2024-07-04",
+      "type": "deposito",
+      "value": 100.00,
+      "accountId" : 67889,
+      "description": "Depósito em dinheiro"
+    },
+    {
+      "id": 2,
+      "date": "2024-07-04",
+      "type": "transferencia",
+      "value": 50.00,
+      "accountId": "67890",
+      "description": "Transferência para conta corrente"
+    },
+    {
+      "id": 3,
+      "date": "2024-07-05",
+      "type": "pagamento",
+      "value": 25.50,
+      "accountId": 12345,
+      "description": "Pagamento de conta de luz"
+    }
+  ]
